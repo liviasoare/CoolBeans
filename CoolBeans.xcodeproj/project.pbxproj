@@ -11,6 +11,12 @@
 		5A786A762880BCDE0008C35D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A752880BCDE0008C35D /* ContentView.swift */; };
 		5A786A782880BCE20008C35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A786A772880BCE20008C35D /* Assets.xcassets */; };
 		5A786A7B2880BCE20008C35D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A786A7A2880BCE20008C35D /* Preview Assets.xcassets */; };
+		5A786A822880BDA00008C35D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A786A812880BD9E0008C35D /* menu.json */; };
+		5A786A842880BE2B0008C35D /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A832880BE2B0008C35D /* Drink.swift */; };
+		5A786A862880BF100008C35D /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A852880BF100008C35D /* MenuSection.swift */; };
+		5A786A882880BF6B0008C35D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A872880BF6B0008C35D /* Menu.swift */; };
+		5A786A8A2880C28C0008C35D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A892880C28C0008C35D /* MenuView.swift */; };
+		5A786A8C2880CA9E0008C35D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A8B2880CA9E0008C35D /* CustomizeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5A786A752880BCDE0008C35D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A786A772880BCE20008C35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A786A7A2880BCE20008C35D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A786A812880BD9E0008C35D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		5A786A832880BE2B0008C35D /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		5A786A852880BF100008C35D /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		5A786A872880BF6B0008C35D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5A786A892880C28C0008C35D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5A786A8B2880CA9E0008C35D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				5A786A732880BCDE0008C35D /* CoolBeansApp.swift */,
 				5A786A752880BCDE0008C35D /* ContentView.swift */,
+				5A786A892880C28C0008C35D /* MenuView.swift */,
+				5A786A8B2880CA9E0008C35D /* CustomizeView.swift */,
+				5A786A832880BE2B0008C35D /* Drink.swift */,
+				5A786A852880BF100008C35D /* MenuSection.swift */,
+				5A786A872880BF6B0008C35D /* Menu.swift */,
+				5A786A812880BD9E0008C35D /* menu.json */,
 				5A786A772880BCE20008C35D /* Assets.xcassets */,
 				5A786A792880BCE20008C35D /* Preview Content */,
 			);
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A786A822880BDA00008C35D /* menu.json in Resources */,
 				5A786A7B2880BCE20008C35D /* Preview Assets.xcassets in Resources */,
 				5A786A782880BCE20008C35D /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A786A762880BCDE0008C35D /* ContentView.swift in Sources */,
+				5A786A8A2880C28C0008C35D /* MenuView.swift in Sources */,
+				5A786A842880BE2B0008C35D /* Drink.swift in Sources */,
+				5A786A862880BF100008C35D /* MenuSection.swift in Sources */,
 				5A786A742880BCDE0008C35D /* CoolBeansApp.swift in Sources */,
+				5A786A8C2880CA9E0008C35D /* CustomizeView.swift in Sources */,
+				5A786A882880BF6B0008C35D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
