@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6894EF28820E5D009D3E0D /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6894EE28820E5D009D3E0D /* ConfigurationOption.swift */; };
+		5A6894F128821460009D3E0D /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6894F028821460009D3E0D /* Serving.swift */; };
+		5A6894F328821DC4009D3E0D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6894F228821DC4009D3E0D /* FileManager-DocumentsDirectory.swift */; };
+		5A6894F528821E29009D3E0D /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6894F428821E29009D3E0D /* History.swift */; };
 		5A786A742880BCDE0008C35D /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A732880BCDE0008C35D /* CoolBeansApp.swift */; };
 		5A786A762880BCDE0008C35D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A786A752880BCDE0008C35D /* ContentView.swift */; };
 		5A786A782880BCE20008C35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A786A772880BCE20008C35D /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A6894EE28820E5D009D3E0D /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		5A6894F028821460009D3E0D /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		5A6894F228821DC4009D3E0D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		5A6894F428821E29009D3E0D /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		5A786A702880BCDE0008C35D /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A786A732880BCDE0008C35D /* CoolBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansApp.swift; sourceTree = "<group>"; };
 		5A786A752880BCDE0008C35D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 				5A786A892880C28C0008C35D /* MenuView.swift */,
 				5A786A8B2880CA9E0008C35D /* CustomizeView.swift */,
 				5A786A832880BE2B0008C35D /* Drink.swift */,
+				5A6894F028821460009D3E0D /* Serving.swift */,
+				5A6894F228821DC4009D3E0D /* FileManager-DocumentsDirectory.swift */,
+				5A6894F428821E29009D3E0D /* History.swift */,
+				5A6894EE28820E5D009D3E0D /* ConfigurationOption.swift */,
 				5A786A852880BF100008C35D /* MenuSection.swift */,
 				5A786A872880BF6B0008C35D /* Menu.swift */,
 				5A786A812880BD9E0008C35D /* menu.json */,
@@ -159,10 +171,14 @@
 				5A786A762880BCDE0008C35D /* ContentView.swift in Sources */,
 				5A786A8A2880C28C0008C35D /* MenuView.swift in Sources */,
 				5A786A842880BE2B0008C35D /* Drink.swift in Sources */,
+				5A6894F528821E29009D3E0D /* History.swift in Sources */,
 				5A786A862880BF100008C35D /* MenuSection.swift in Sources */,
 				5A786A742880BCDE0008C35D /* CoolBeansApp.swift in Sources */,
+				5A6894EF28820E5D009D3E0D /* ConfigurationOption.swift in Sources */,
+				5A6894F328821DC4009D3E0D /* FileManager-DocumentsDirectory.swift in Sources */,
 				5A786A8C2880CA9E0008C35D /* CustomizeView.swift in Sources */,
 				5A786A882880BF6B0008C35D /* Menu.swift in Sources */,
+				5A6894F128821460009D3E0D /* Serving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
