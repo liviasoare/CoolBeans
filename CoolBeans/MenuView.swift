@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct MenuView: View {
-    @EnvironmentObject var menu: Menu;
+    @EnvironmentObject var menu: Menu
+    @Environment(\.dismiss) var dismiss
+    @State private var searchText = ""
     
     let columns = [
         GridItem(.adaptive(minimum: 150))
@@ -18,13 +20,13 @@ struct MenuView: View {
         NavigationView{
             ScrollView{
                 LazyVGrid(columns: columns, pinnedViews: .sectionHeaders){
-                    ForEach(menu.sections) {
-                        section in
+                    ForEach(menu.sections) { section in
                         Section{
-                            ForEach(section.drinks){
-                                drink in
+                            ForEach(section.matches(for: searchText)){ drink in
                                 NavigationLink{
-                                    CustomizeView(drink: drink)
+                                    CustomizeView(drink: drink){
+                                        dismiss()
+                                    }
                                 } label: {
                                     VStack{
                                         
@@ -38,7 +40,6 @@ struct MenuView: View {
                                     .padding(.bottom)
                                 }
                                 .buttonStyle(.plain)
-                                
                             }
                         }
                     header: {
@@ -47,12 +48,13 @@ struct MenuView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding([.top, .bottom, .trailing], 5)
                             .background(.background)
-                    }
+                        }
                     }
                 }
                 .padding(.horizontal)
             }
             .navigationTitle("Add Drink")
+            .searchable(text: $searchText)
         }
     }
 }
