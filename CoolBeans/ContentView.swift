@@ -21,7 +21,7 @@ struct ContentView: View {
     }
     
     
-    var body: some View { //removed MenuView()
+    var body: some View { //removed MenuView() -> insert the orght object
         NavigationView{
             List{
                 if history.servings.isEmpty{
