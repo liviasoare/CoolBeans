@@ -21,7 +21,7 @@ struct ContentView: View {
     }
     
     
-    var body: some View {
+    var body: some View { //removed MenuView()
         NavigationView{
             List{
                 if history.servings.isEmpty{
