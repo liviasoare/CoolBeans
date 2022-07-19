@@ -22,7 +22,6 @@ struct ContentView: View {
     
     
     var body: some View {
-        MenuView()
         NavigationView{
             List{
                 if history.servings.isEmpty{
